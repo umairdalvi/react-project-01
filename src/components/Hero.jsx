@@ -26,7 +26,7 @@ const Hero = () => {
                                 <Button
                                     text={"View Case Studies"}
                                     style={"text"}
-                                    icon={<i class="ri-arrow-right-long-line ms-10"></i>}
+                                    icon={<i className="ri-arrow-right-long-line ms-10"></i>}
                                     iconPosition={"right"}
                                 />
                             </div>

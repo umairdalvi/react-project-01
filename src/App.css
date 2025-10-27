@@ -7,7 +7,7 @@
   --text-grey: #434a57;
   --text-white: #ffffff;
 
-  --text-sm: clamp(0.85rem, 1.5vw, 1.05rem);
+  --text-sm: clamp(0.75rem, 1.5vw, 1rem);
 
   --transition: all 0.15s linear;
 }
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter 18pt", sans-serif;
 }
 
 a {
@@ -140,7 +140,7 @@ a {
 .header-logo-text {
   font-size: 1.35rem;
   color: var(--text-grey);
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 0 0 0.5rem;
 }
 
@@ -164,6 +164,10 @@ a {
 
 .btn.btn-slim {
   padding: 10px 18px;
+}
+
+.btn-outline {
+  background: transparent;
 }
 
 .btn-outline.btn-primary {
@@ -206,11 +210,31 @@ a {
   background: transparent;
 }
 
+.btn.btn-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  height: clamp(3em, 1vw, 4em);
+  width: clamp(3em, 1vw, 4em);
+}
+
+.btn-outline.btn-circle {
+  background: transparent;
+  color: var(--accent-color);
+}
+
+.btn-outline.btn.btn-circle.btn-primary:hover {
+  background-color: var(--accent-color);
+  color: var(--text-white);
+}
+
 .hero-title {
   font-size: clamp(2rem, 5.6vw, 6rem);
   line-height: 6rem;
   color: var(--text-white);
   white-space-collapse: collapse;
+  font-weight: 500;
 }
 
 .hero-dsc {
@@ -274,7 +298,42 @@ a {
   gap: 2rem;
 }
 
-.clients-content img{
+.clients-content img {
   height: 16%;
   width: 16%;
+}
+
+.service-card {
+  min-height: 250px;
+  width: 32%;
+  border-radius: 30px;
+  padding: 25px;
+  text-align: center;
+  background-color: #f6f9fc;
+}
+
+.service-cards {
+  justify-content: space-between;
+}
+
+.service-title {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 600;
+  margin: 1.25rem 0;
+  color: #121519;
+}
+
+.service-dsc {
+  color: var(--text-grey);
+}
+
+.service-btn {
+  margin: 2rem 0 0 0;
+}
+
+.services-title {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0;
 }

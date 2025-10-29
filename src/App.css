@@ -360,7 +360,6 @@ a {
 }
 
 .accordion-item {
-  /* border: 1px solid black; */
   margin: 0 0 2rem 0;
 }
 
@@ -402,9 +401,49 @@ a {
 .industries-title {
   font-size: clamp(1.5rem, 6vw, 2.25rem);
   font-weight: 600;
-  margin: 0 0 .75rem 0;
+  margin: 0 0 0.75rem 0;
 }
 
 .industries-subtitle {
   color: #434a57;
+}
+
+.skill-card {
+  background-color: #f6f9fc;
+  border-radius: 30px;
+  padding: 25px;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+}
+
+.skill-card-img-wrapper {
+  max-height: 48px;
+  max-width: 48px;
+  margin: 0 0 0.35rem 0;
+}
+
+.skill-card-title-wrapper {
+  margin: 0 0 0.25rem 0;
+}
+
+.skill-card-img {
+  width: 48px;
+}
+
+.skill-card-title {
+  color: #171a1e;
+  font-weight: 500;
+}
+
+.skill-card-dsc {
+  font-size: 0.85rem;
+  color: #434a57;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 6vw, 2.25rem);
+  font-weight: 600;
+  margin: 2.5rem;
 }

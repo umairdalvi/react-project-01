@@ -4,6 +4,7 @@ import "../src/App.css"
 import Clients from "./components/Clients"
 import Services from "./components/Services"
 import Industries from "./components/Industries"
+import Skills from "./components/Skills"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Clients />
       <Services />
       <Industries />
+      <Skills />
     </div>
   )
 }

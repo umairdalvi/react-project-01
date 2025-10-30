@@ -5,6 +5,7 @@ import Clients from "./components/Clients"
 import Services from "./components/Services"
 import Industries from "./components/Industries"
 import Skills from "./components/Skills"
+import Benefits from "./components/Benefits"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <Industries />
       <Skills />
+      <Benefits />
     </div>
   )
 }

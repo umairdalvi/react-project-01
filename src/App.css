@@ -34,6 +34,11 @@ a {
   padding: 20px 40px;
 }
 
+.container-fluid {
+  margin: auto;
+  max-width: 100%;
+}
+
 .me-10 {
   margin: 0 10px 0 0;
 }
@@ -196,7 +201,7 @@ a {
 
 .btn.btn-black {
   background-color: black;
-  color: var(--text-primary);
+  color: var(--text-white);
 }
 
 .btn.btn-text {
@@ -446,4 +451,111 @@ a {
   font-size: clamp(1.5rem, 6vw, 2.25rem);
   font-weight: 600;
   margin: 2.5rem;
+}
+
+.benefits-left {
+  width: 40%;
+}
+
+.benefits-right {
+  width: 60%;
+}
+
+.benefits-title-wrapper {
+  margin: 0 0 1rem 0;
+}
+
+.benefits-title {
+  font-size: clamp(1.5rem, 6vw, 2.25rem);
+  font-weight: 600;
+}
+
+.benefits-subtitle {
+  color: #434a57;
+  margin: 0.5rem 0 0 0;
+}
+
+.form-title {
+  font-size: clamp(1.25rem, 3vw, 1.85rem);
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1.15rem 0;
+}
+
+.form-label {
+  margin: 0 0 0.35rem 0;
+}
+
+.form-control {
+  min-height: 50px;
+  border-radius: 20px;
+  border: 1px solid #d7dde2;
+  padding: 10px;
+  font-family: "Inter 18pt", sans-serif;
+}
+
+.form-control:active,
+.form-control:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.form-btn {
+  margin: 3rem 0 0 0;
+}
+
+.container:has(.benefits-content) {
+  background-color: #f6f9fc;
+  padding: 4rem 3rem;
+}
+
+.benefits-content {
+  max-width: fit-content !important;
+}
+
+textarea.form-control {
+  min-height: 120px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  color: #576071;
+}
+
+.bg-white .benefit-card-title {
+  color: #121519;
+}
+.bg-accent .benefit-card-title {
+  color: var(--text-white);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+  color: #ffffffb3;
+}
+
+.benefit-card {
+  height: 300px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 1.75rem;
+}
+
+.benefits-right {
+  display: grid;
+  gap: 1.25rem;
+  padding: 0 0 0 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  max-height: 300px;
+}
+
+.benefit-card-title-wrapper {
+  font-size: clamp(1.15rem, 3vw, 1.5rem);
+  font-weight: 500;
+  margin: 1rem 0;
 }

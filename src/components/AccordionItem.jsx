@@ -18,7 +18,7 @@ const AccordionItem = ({
         <div className="accordion-item" id={`${accordionId}`}>
             <div className={titleClassList} onClick={() => expandAccordion(accordionId)}>
                 <p>{accordionTitle}</p>
-                <span className="accordion-title-icon">
+                <span className={`accordion-title-icon ${defaultOpen ? "rotate-icon" : ""}`}>
                     <i className="ri-arrow-down-s-line"></i>
                 </span>
             </div>

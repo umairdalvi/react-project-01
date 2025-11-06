@@ -9,13 +9,15 @@ const Header = () => {
                 <HeaderLogo />
                 <Navbar />
             </div>
-            <div className="header-right">
+            <div className="header-right flex align-center">
                 <Button
                     text="Buy Now"
                     icon={<i className="ri-shopping-cart-2-line me-10"></i>}
                     style="slim"
                     color="primary"
                 />
+
+                <i className="ri-menu-line menu-icon"></i>
             </div>
         </div>
     )

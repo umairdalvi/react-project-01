@@ -14,7 +14,7 @@ A lightweight React application with **Vite**, featuring basic React components 
 ## 📁 Folder Structure
 
 ```
-. . 📂 react-project-01
+. 📂 react-project-01
 └── 📂 public/
 │  └── 📂 fonts/
 │  └── 📂 images/
@@ -40,18 +40,19 @@ A lightweight React application with **Vite**, featuring basic React components 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/umairdalvi/react-project-01
+cd react-project-01
+
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-    npm install
+npm install
 ```
 
 ### 2. Start Development Server
 
 ```bash
-    npm run dev
+npm run dev
 ```
